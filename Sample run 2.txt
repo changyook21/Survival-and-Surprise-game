@@ -1,0 +1,231 @@
+SAMPLE RUN 2
+TWO GAMES
+No die rolling, no catastrophes, no surprises
+
+First game: won because the player arrived to PythonShine
+Second game: the game was over becuase the player run our of life points and died
+
+Python 2.7.4 (default, Apr  6 2013, 19:54:46) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Do you want to draw the board? (y/n): y
+Do you want to play the game? (y/n): y
+Type name of board file (d for default): d
+Name? SampleGame 2
+Initial life points? (10...50) 10
+Maximum number of turns this game? (1...10) 3
+Allow that catastrophes happen? (y/n):n
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	 <--- Player
+1 	10 	0 	1 	
+2 	10 	1 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	
+
+
+Which position shall PythonShine be? (1...7), 0 has no effect: 7
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	 <--- Player
+1 	10 	0 	1 	
+2 	10 	1 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 0
+The player SampleGame 2
+currently has: 10 life points
+has no sword
+has 0 diamonds
+is in the position: 0
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 1
+
+yey!!... the player collected 3 diamonds
+oh well... the player tied the fight and lost 6 life points
+The player now has 4 life points
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	
+1 	7 	0 	1 	 <--- Player
+2 	10 	1 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 1
+The player SampleGame 2
+currently has: 4 life points
+has no sword
+has 3 diamonds
+is in the position: 1
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 2
+
+yey!!... the player collected 3 diamonds
+yey!!... the player exchanged to a better sword
+The player's new sword is of type: 1
+oh well... the player tied the fight and lost 1 life points
+The player now has 3 life points
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	
+1 	7 	0 	1 	
+2 	7 	0 	3 	 <--- Player
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 2
+The player SampleGame 2
+currently has: 3 life points
+has a sword of matetial: 1
+has 6 diamonds
+is in the position: 2
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 7
+
+You win
+
+Do you want to play again?(y/n):n
+Do you want to draw the board? (y/n): y
+Do you want to play the game? (y/n): y
+Type name of board file (d for default): d
+Name? SampleGame 2
+Initial life points? (10...50) 10
+Maximum number of turns this game? (1...10) 5
+Allow that catastrophes happen? (y/n):n
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	 <--- Player
+1 	10 	0 	1 	
+2 	10 	1 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	
+
+
+Which position shall PythonShine be? (1...7), 0 has no effect: 7
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	 <--- Player
+1 	10 	0 	1 	
+2 	10 	1 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 0
+The player SampleGame 2
+currently has: 10 life points
+has no sword
+has 0 diamonds
+is in the position: 0
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 2
+
+yey!!... the player collected 3 diamonds
+yey!!... the player exchanged to a better sword
+The player's new sword is of type: 1
+oh well... the player tied the fight and lost 7 life points
+The player now has 3 life points
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	
+1 	10 	0 	1 	
+2 	7 	0 	3 	 <--- Player
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 1
+The player SampleGame 2
+currently has: 3 life points
+has a sword of matetial: 1
+has 3 diamonds
+is in the position: 2
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 1
+
+yey!!... the player collected 3 diamonds
+oh well... the player tied the fight and lost 1 life points
+The player now has 2 life points
+
+
+Biome 	Diam 	Swords 	Enemies 	
+
+0 	0 	0 	0 	
+1 	7 	0 	1 	 <--- Player
+2 	7 	0 	3 	
+3 	4 	2 	2 	
+4 	10 	3 	1 	
+5 	10 	1 	1 	
+6 	10 	3 	3 	
+7 	10 	2 	3 	 <=== PythonShine
+
+
+Showing player... about to do turn num: 2
+The player SampleGame 2
+currently has: 2 life points
+has a sword of matetial: 1
+has 6 diamonds
+is in the position: 1
+so... he is... very alive!!!
+
+Roll die or choose next position? (d/u): u
+Which biome should the player go to?(0...7) 2
+
+yey!!... the player collected 2 diamonds
+oh well... the player tied the fight and lost 2 life points
+The player now has 0 life points
+You died
+Do you want to play again?(y/n):n
+Ending...
+>>> 
